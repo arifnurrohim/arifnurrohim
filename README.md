@@ -1,12 +1,13 @@
 <h1 align="center">Hi 👋, I'm Arif Nurrohim</h1>
 <h3 align="left">Connect with me:</h3>
-<p align="left">
+<p align="center">
 <a href="https://dev.to/arifnurrohim" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="arifnurrohim" height="30" width="40" /></a>
 <a href="https://twitter.com/arifnurrohim" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="arifnurrohim" height="30" width="40" /></a>
 <a href="https://fb.com/xrpl1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="xrpl1" height="30" width="40" /></a>
 <a href="https://instagram.com/arifnurrohim" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="arifnurrohim" height="30" width="40" /></a>
 </p>
-<a href="https://app.daily.dev/arifnurrohim"><img src="https://github.com/arifnurrohim/arifnurrohim/blob/main/devcard.svg" width="400" alt="Arif Nurrohim's Dev Card"/></a>
+<p align="center"><a href="https://app.daily.dev/arifnurrohim"><img src="https://github.com/arifnurrohim/arifnurrohim/blob/main/devcard.svg" width="400" alt="Arif Nurrohim's Dev Card"/></a>
+</p>
 
 <!--
 <a href="https://app.daily.dev/arifnurrohim"><img src="https://api.daily.dev/devcards/3d23f1694440464a9f8d2f8b11b49215.png?r=5nl" width="400" alt="Arif Nurrohim's Dev Card"/></a>
