@@ -1,0 +1,36 @@
+name: Daily Activity
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-activity
+  cancel-in-progress: false
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Append activity
+        run: echo "- $(date -u '+%Y-%m-%d %H:%M UTC')" >> activity.log
+
+      - name: Commit and push
+        env:
+          ACTIVITY_EMAIL: ${{ secrets.ACTIVITY_EMAIL }}
+        run: |
+          if [ -z "$ACTIVITY_EMAIL" ]; then
+            echo "::error::Add a repository secret ACTIVITY_EMAIL with an email verified on your GitHub account."
+            exit 1
+          fi
+          git config user.name "arifnurrohim"
+          git config user.email "$ACTIVITY_EMAIL"
+          git add activity.log
+          git commit -m "chore: daily activity $(date -u +%Y-%m-%d)"
+          git push || (git pull --rebase && git push)
